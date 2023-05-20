@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-20T16:55:35 IST" name="Surefire suite" finished-at="2023-05-20T16:56:03 IST" duration-ms="28107">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:qa.runners.MyTestNGRunnerTest@41c2284a]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2023-05-20T16:55:35 IST" name="Surefire test" finished-at="2023-05-20T16:56:03 IST" duration-ms="28107">
+      <class name="qa.runners.MyTestNGRunnerTest">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:qa.runners.MyTestNGRunnerTest@41c2284a]" started-at="2023-05-20T16:55:35 IST" name="setUpClass" finished-at="2023-05-20T16:55:36 IST" duration-ms="275" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@22590e3e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:qa.runners.MyTestNGRunnerTest@41c2284a]" started-at="2023-05-20T16:55:36 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-20T16:56:03 IST" duration-ms="27427" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify navigation to International payments page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Corp suite portal - International payments]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:qa.runners.MyTestNGRunnerTest@41c2284a]" started-at="2023-05-20T16:56:03 IST" name="tearDownClass" finished-at="2023-05-20T16:56:03 IST" duration-ms="385" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- qa.runners.MyTestNGRunnerTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
