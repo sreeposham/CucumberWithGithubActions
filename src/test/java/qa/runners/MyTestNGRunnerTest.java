@@ -21,8 +21,8 @@ import org.testng.annotations.DataProvider;
 				"html:target/cucumber/cucumber.html" ,
 				"me.jvt.cucumber.report.PrettyReports:target/cucumber/"
 		}, 
-		glue = { "qa" },
-		// glue = {"awesomecucumber.stepdefinitions","awesomecucumber.hooks"},
+		// glue = { "qa" },
+		glue = {"qa.stepdefinitions.corp","qa.hooks"},
 		features = "src/test/resources/features",
 		tags = "@international")
 		//tags = "@regression")
